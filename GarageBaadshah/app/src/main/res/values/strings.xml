@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GarageBaadshah</string>
+    <string name="Welcome_text">WELCOME</string>
+    <string name="Information">Hi User, \n\t This is a Unique platform in which you can find the garages around and get their services 
+        .Here you will have an option for online transaction of the bill amount and the rates for each of the services will be fixed.</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="alerttitle">PAY BY CASH</string>
+    <string name="alertmsg">Are you sure??</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="payonline">PAY ONLINE</string>
+    <string name="payoncashmsg">Thanks for using Our Service...</string>
+    <string name="ppp">Kindly Pay the Bill Amount by Cash to our Registered Partner Executive</string>
+    <string name="rate">Please Rate Our Service</string>
+    <string name="pep">Thanks for the Payment</string>
+</resources>

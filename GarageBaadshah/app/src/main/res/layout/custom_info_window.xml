@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/custext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dista"
+                android:text="Distance"
+
+                android:textColor="@color/Black"
+
+                android:paddingTop="2sp"
+
+                android:layout_below="@id/custext">
+
+            </TextView>
+            <Button
+                android:id="@+id/cusbt"
+                android:layout_width="101dp"
+                android:layout_height="26dp"
+                android:layout_alignBottom="@id/dista"
+                android:layout_marginLeft="13dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toRightOf="@id/dista"
+                android:background="@android:color/transparent"
+
+                android:text="Continue...."
+                android:textColor="#F316FB"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </Button>
+
+
+
+            <RatingBar
+                android:id="@+id/cusrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="-7dp"
+                android:layout_below="@+id/dista">
+
+            </RatingBar>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
